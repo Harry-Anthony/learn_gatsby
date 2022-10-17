@@ -1,0 +1,17 @@
+.container {
+    background: #F4FBFF;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.cardHeader {
+ max-width: 405px;
+ height: 292px;
+}
+
+.cardBody {
+    padding: 23px;
+}

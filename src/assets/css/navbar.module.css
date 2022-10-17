@@ -1,0 +1,36 @@
+.container {
+    /* background-color: red; */
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 160px;
+}
+.ul {
+    display: flex;
+    /* background-color: green; */
+}
+
+.li {
+    list-style: none;
+}
+.a {
+    list-style: none;
+    font-family: nunitoBlack;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+}
+
+.roundedButton {
+    border-color: white !important;
+    color: white !important;
+    margin-left: 20px;
+}
+

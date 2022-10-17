@@ -1,0 +1,44 @@
+.container {
+    margin-top: 100px;
+    /* margin-bottom: 80px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerTitle {
+    text-align: center;
+}
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.card {
+    width: 405px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: solid 1px black; */
+}
+
+.cardHeader {
+    text-align: center;
+}
+
+.cardBody {
+    margin: 31px 0px;
+}
+
+.cardFooter {
+
+}
+
+.listItem {
+    display: flex;
+    margin: 16px 0px;
+}
+.listItemTitle {
+    margin-left: 23px;
+}

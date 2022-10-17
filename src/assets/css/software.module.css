@@ -1,0 +1,49 @@
+ .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+ }
+ 
+ .titleContainer {
+    max-width: 575px;
+    text-align: center;
+    margin-bottom: 80px;
+ }
+
+ .subtitle {
+    color: #3D3A41;
+    margin-top: 16px;
+ }
+ 
+ .cardContainer {
+    display: flex;
+ }
+
+ .card {
+    position: relative;
+    width: 405px;
+    height: 600px;
+    padding: 24px;
+    margin-right: 32px;
+    text-align: center;
+ }
+
+ .title {
+   margin-top: 33px;
+ }
+
+ .description {
+   font-size: 16px;
+   margin-top: 16px;
+ }
+
+ .textButton {
+   position: absolute;
+   bottom: 50px;
+   right: 0px;
+   left: 0px;
+ }
+
+
+

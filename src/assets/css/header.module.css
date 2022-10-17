@@ -1,0 +1,49 @@
+.container {
+    background-image: url(../img/bg-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 965px;
+}
+
+.headerCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    max-width: 737px;
+    color: white;
+    text-align: center;
+}
+.title {
+    text-align: center;
+}
+.subtitle {
+    max-width: 460px;
+    text-align: center;
+    margin: 40px 0px;
+}
+.buttonContainer {
+    display: flex;
+}
+.button {
+    margin-right: 20px;
+}
+.roundedButton {
+    border-color: white !important;
+    color: white !important;
+    margin-left: 20px;
+}
+
+.roundedButtonText {
+    margin-right: 10px;
+}
+
+.macImage {
+    position: absolute;
+    top: 101px;
+}

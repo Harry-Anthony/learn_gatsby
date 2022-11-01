@@ -8,7 +8,7 @@ function Customer() {
         <div className={customerStyles.container}>
             <div className='title-container'>
                 <H2>
-                    Software Solutions that Fit Your Needs
+                    Customer testimonials                
                 </H2>
                 <PRegular className='subtitle'>
                     The features to boost your productivity

@@ -8,6 +8,7 @@ import Protection from "../sections/Protection";
 import Pricing from "../sections/Pricing";
 import Customer from "../sections/Customer";
 import FormEmail from "../sections/FormEmail";
+import RecentNews from "../sections/RecentNews";
 
 const pcImage = {
   textAlign: 'center',
@@ -26,6 +27,7 @@ const IndexPage = () => {
         <Pricing />
         <Customer />
         <FormEmail />
+        <RecentNews />
       </Layout>
     </main>
   )

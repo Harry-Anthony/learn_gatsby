@@ -1,3 +1,4 @@
+import { StaticImage } from 'gatsby-plugin-image'
 import React from 'react'
 import * as customerStyles from '../assets/css/customer.module.css'
 import { H5, PRegular } from './text'
@@ -10,7 +11,9 @@ function CustomerCard() {
         <PRegular>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</PRegular>
       </div>
       <div className={customerStyles.footerCard}>
-        <div className={customerStyles.avatar}></div>
+        <div className={customerStyles.avatar}>
+          <StaticImage src='../assets/img/avatar.png' alt='avatar'/>
+        </div>
         <div>
             <H5>Brooklyn Simmons</H5>
             <PRegular>Bank of America</PRegular>

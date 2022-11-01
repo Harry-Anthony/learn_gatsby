@@ -1,5 +1,10 @@
 .container {
     background: #F4FBFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0px;
 }
 
 .header {
@@ -7,11 +12,28 @@
     justify-content: space-between;
     margin-bottom: 80px;
 }
+
+.cardContainer {
+    display: flex;
+}
+
+.card {
+    max-width: 405px;
+    margin: 0px 16px;
+}
+
 .cardHeader {
- max-width: 405px;
  height: 292px;
 }
 
 .cardBody {
     padding: 23px;
+}
+
+.cardInfo {
+    display: flex;
+}
+
+.cardBottom {
+    margin-top: 23px;
 }

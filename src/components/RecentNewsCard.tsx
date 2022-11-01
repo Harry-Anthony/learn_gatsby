@@ -25,7 +25,7 @@ function RecentNewsCard({cardTitle}: {cardTitle: string}) {
   return (
     <div className={newStyles.card}>
       <div className={newStyles.cardHeader}>
-        <StaticImage src='../assets/img/Image.png' alt='pc'/>
+        <StaticImage src='../assets/img/pcImage.png' alt='pc'/>
       </div>
       <div className={newStyles.cardBody}>
         <div className={newStyles.cardInfo}>
